@@ -6,8 +6,8 @@ yum install -y php-devel php-pear gcc gcc-c++ autoconf automake
 echo "Installing XDebug"
 pecl install Xdebug
 
-echo "Ensuring XDebug is executable"
-chmod +x /usr/lib64/php/modules/xdebug.so
+#echo "Ensuring XDebug is executable"
+#chmod +x /usr/lib64/php/modules/xdebug.so
 
 echo "Appending xdebug configuration details to /etc/php.ini"
 echo "[xdebug]
